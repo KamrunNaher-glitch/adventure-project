@@ -13,11 +13,20 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element:<Home></Home>,
-                loader:()=>fetch("/adventure.json")
+                loader:async ()=>{
+                    const adventuresRes = await fetch("/adventure.json");
+                    const adventuresData = await adventuresRes.json()
+
+                    const feedBackRes = await fetch ("/happyclients.json");
+                    const feedBackData = await feedBackRes.json() 
+                    return {adventuresData,feedBackData}
+                     
+                }
             },
             {
                 path: "/AllBlogs",
-                element:<AlllBlogs></AlllBlogs>
+                element:<AlllBlogs></AlllBlogs>,
+                loader:()=>fetch("/adventure.json")
             },
             {
                 path: "/Profile",
@@ -32,3 +41,5 @@ const router = createBrowserRouter([
 ])
 
 export default router ;
+
+
