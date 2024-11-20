@@ -2,7 +2,7 @@
     {
       "id": 1,
       "adventureTitle": "Rainforest Trekking",
-      "image": "https://example.com/images/rainforest-trekking.jpg",
+      "image": "https://i.ibb.co.com/dcV00nh/download.jpg",
       "categoryName": "Hiking",
       "shortDescription": "Explore the heart of the rainforest on a guided trek.",
       "adventureCost": 120,
@@ -30,7 +30,7 @@
     {
       "id": 2,
       "adventureTitle": "Coral Reef Diving",
-      "image": "https://example.com/images/coral-reef-diving.jpg",
+      "image": "https://i.ibb.co.com/z2n68ZK/download-1.jpg",
       "categoryName": "Water Sports",
       "shortDescription": "Discover vibrant marine life in protected coral reefs.",
       "adventureCost": 200,
@@ -58,7 +58,7 @@
     {
       "id": 3,
       "adventureTitle": "Mountain Biking Expedition",
-      "image": "https://example.com/images/mountain-biking.jpg",
+      "image": "https://i.ibb.co.com/tP9T6Xr/download-2.jpg",
       "categoryName": "Cycling",
       "shortDescription": "Experience thrilling rides on rugged mountain trails.",
       "adventureCost": 90,
@@ -86,7 +86,7 @@
     {
       "id": 4,
       "adventureTitle": "Kayaking in Mangroves",
-      "image": "https://example.com/images/kayaking-mangroves.jpg",
+      "image": "https://i.ibb.co.com/tJjH3Xz/download-3.jpg",
       "categoryName": "Kayaking",
       "shortDescription": "Paddle through serene mangrove forests.",
       "adventureCost": 70,
@@ -114,7 +114,7 @@
     {
       "id": 5,
       "adventureTitle": "Desert Camel Safari",
-      "image": "https://example.com/images/camel-safari.jpg",
+      "image": "https://i.ibb.co.com/47847mm/download-4.jpg",
       "categoryName": "Safari",
       "shortDescription": "Experience the magic of the desert on camelback.",
       "adventureCost": 150,
@@ -142,7 +142,7 @@
     {
       "id": 6,
       "adventureTitle": "Volcano Trek and Hot Springs",
-      "image": "https://example.com/images/volcano-trek.jpg",
+      "image": "https://i.ibb.co.com/9hNhLb9/download-5.jpg",
       "categoryName": "Hiking",
       "shortDescription": "Hike up an active volcano and relax in natural hot springs.",
       "adventureCost": 180,
@@ -167,5 +167,6 @@
         "Avoid straying off marked trails."
       ]
     }
+    
   ]
   
