@@ -1,0 +1,171 @@
+[
+    {
+      "id": 1,
+      "adventureTitle": "Rainforest Trekking",
+      "image": "https://example.com/images/rainforest-trekking.jpg",
+      "categoryName": "Hiking",
+      "shortDescription": "Explore the heart of the rainforest on a guided trek.",
+      "adventureCost": 120,
+      "bookingAvailability": true,
+      "location": "Amazon Rainforest, Brazil",
+      "duration": "3 Days",
+      "adventureLevel": "Intermediate",
+      "includedItems": [
+        "Experienced Guide",
+        "Meals and Snacks",
+        "First Aid Kit"
+      ],
+      "ecoFriendlyFeatures": [
+        "Plastic-Free Tours",
+        "Support Local Communities",
+        "Leave-No-Trace Policy"
+      ],
+      "maxGroupSize": 12,
+      "specialInstructions": [
+        "Wear breathable hiking clothes.",
+        "Bring insect repellent.",
+        "Pack light but include essentials like water bottles."
+      ]
+    },
+    {
+      "id": 2,
+      "adventureTitle": "Coral Reef Diving",
+      "image": "https://example.com/images/coral-reef-diving.jpg",
+      "categoryName": "Water Sports",
+      "shortDescription": "Discover vibrant marine life in protected coral reefs.",
+      "adventureCost": 200,
+      "bookingAvailability": true,
+      "location": "Great Barrier Reef, Australia",
+      "duration": "1 Day",
+      "adventureLevel": "Advanced",
+      "includedItems": [
+        "Diving Gear",
+        "Certified Dive Instructor",
+        "Underwater Photos"
+      ],
+      "ecoFriendlyFeatures": [
+        "Eco-Friendly Sunscreen Provided",
+        "Marine Life Conservation Partner",
+        "Reusable Equipment"
+      ],
+      "maxGroupSize": 8,
+      "specialInstructions": [
+        "Must have a valid dive certification.",
+        "Avoid touching marine life.",
+        "Use the provided eco-friendly sunscreen."
+      ]
+    },
+    {
+      "id": 3,
+      "adventureTitle": "Mountain Biking Expedition",
+      "image": "https://example.com/images/mountain-biking.jpg",
+      "categoryName": "Cycling",
+      "shortDescription": "Experience thrilling rides on rugged mountain trails.",
+      "adventureCost": 90,
+      "bookingAvailability": true,
+      "location": "Rocky Mountains, USA",
+      "duration": "2 Days",
+      "adventureLevel": "Intermediate",
+      "includedItems": [
+        "Mountain Bike",
+        "Helmet and Gear",
+        "Trail Snacks"
+      ],
+      "ecoFriendlyFeatures": [
+        "Recycled Bike Materials",
+        "Low-Impact Trail Riding",
+        "Promotes Reforestation Projects"
+      ],
+      "maxGroupSize": 10,
+      "specialInstructions": [
+        "Bring your own water bottle.",
+        "Ensure you are in good physical condition.",
+        "Wear comfortable biking attire."
+      ]
+    },
+    {
+      "id": 4,
+      "adventureTitle": "Kayaking in Mangroves",
+      "image": "https://example.com/images/kayaking-mangroves.jpg",
+      "categoryName": "Kayaking",
+      "shortDescription": "Paddle through serene mangrove forests.",
+      "adventureCost": 70,
+      "bookingAvailability": true,
+      "location": "Florida Keys, USA",
+      "duration": "Half Day",
+      "adventureLevel": "Beginner",
+      "includedItems": [
+        "Kayak and Paddle",
+        "Safety Vest",
+        "Guided Tour"
+      ],
+      "ecoFriendlyFeatures": [
+        "No Motorized Boats Used",
+        "Mangrove Preservation Support",
+        "Minimal Carbon Footprint"
+      ],
+      "maxGroupSize": 15,
+      "specialInstructions": [
+        "Bring sunscreen and a hat.",
+        "Avoid loud noises to respect wildlife.",
+        "Carry a waterproof bag for valuables."
+      ]
+    },
+    {
+      "id": 5,
+      "adventureTitle": "Desert Camel Safari",
+      "image": "https://example.com/images/camel-safari.jpg",
+      "categoryName": "Safari",
+      "shortDescription": "Experience the magic of the desert on camelback.",
+      "adventureCost": 150,
+      "bookingAvailability": true,
+      "location": "Sahara Desert, Morocco",
+      "duration": "2 Days, 1 Night",
+      "adventureLevel": "Beginner",
+      "includedItems": [
+        "Camel Ride",
+        "Traditional Meals",
+        "Overnight Tent Stay"
+      ],
+      "ecoFriendlyFeatures": [
+        "Animal Welfare Practices",
+        "Solar-Powered Camps",
+        "Locally Sourced Food"
+      ],
+      "maxGroupSize": 8,
+      "specialInstructions": [
+        "Wear lightweight clothing suitable for desert climates.",
+        "Carry a reusable water bottle.",
+        "Respect cultural traditions and customs."
+      ]
+    },
+    {
+      "id": 6,
+      "adventureTitle": "Volcano Trek and Hot Springs",
+      "image": "https://example.com/images/volcano-trek.jpg",
+      "categoryName": "Hiking",
+      "shortDescription": "Hike up an active volcano and relax in natural hot springs.",
+      "adventureCost": 180,
+      "bookingAvailability": true,
+      "location": "Arenal Volcano, Costa Rica",
+      "duration": "1 Day",
+      "adventureLevel": "Intermediate",
+      "includedItems": [
+        "Hiking Guide",
+        "Snacks and Refreshments",
+        "Hot Springs Entry"
+      ],
+      "ecoFriendlyFeatures": [
+        "Renewable Energy Use at Hot Springs",
+        "Wildlife Protection Initiatives",
+        "Sustainable Tourism Practices"
+      ],
+      "maxGroupSize": 10,
+      "specialInstructions": [
+        "Wear sturdy hiking shoes.",
+        "Pack swimwear for the hot springs.",
+        "Avoid straying off marked trails."
+      ]
+    }
+  ]
+  
