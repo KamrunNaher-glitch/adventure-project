@@ -4,6 +4,7 @@ import Home from "../Home/Home";
 import About from "../About/About";
 import AlllBlogs from "../AllBlogs/AlllBlogs";
 import Profile from "../Profile/Profile";
+import Details from "../Details/Details";
 
 const router = createBrowserRouter([
     {
@@ -35,6 +36,16 @@ const router = createBrowserRouter([
             {
                 path: "/About",
                 element:<About></About>
+            },
+            {
+                path:"/Details/:id",
+                element: <Details></Details>,
+                loader: async ({params}) => {
+                    const res = await fetch ("/adventure.json")
+                    const data = await res.json()
+                    const singleData = data.find (d => d.id == params.id)
+                    return singleData
+                }
             }
         ]
     }
