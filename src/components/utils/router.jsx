@@ -7,6 +7,7 @@ import Profile from "../Profile/Profile";
 import Details from "../Details/Details";
 import Login from "../Login/Login";
 import Register from "../Register/Register";
+import PrivateRoute from "../PrivateRoute/PrivateRoute"
 
 const router = createBrowserRouter([
     {
@@ -41,7 +42,11 @@ const router = createBrowserRouter([
             },
             {
                 path:"/Details/:id",
-                element: <Details></Details>,
+                element: <PrivateRoute>
+                     <Details></Details>
+                </PrivateRoute>
+                   
+                ,
                 loader: async ({params}) => {
                     const res = await fetch ("/adventure.json")
                     const data = await res.json()

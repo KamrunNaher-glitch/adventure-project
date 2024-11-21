@@ -4,6 +4,7 @@ import HeroSection from '../HeroSection/HeroSection';
 import { NavLink, useLoaderData } from 'react-router-dom';
 import AdventureCard from '../AdventureCard/AdventureCard';
 import FeedBack from '../FeedBack/FeedBack';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     const adventures = useLoaderData();
@@ -23,8 +24,8 @@ const Home = () => {
             <NavLink to="/AllBlogs">Show More</NavLink>
            </button>
            <h1 className='text-center mt-6 mb-10 text-2xl font-semibold'>OUR HAPPY CLIENTS</h1>
-           <FeedBack feedBackData={feedBackData}></FeedBack>
-           
+           <FeedBack feedBackData={feedBackData}></FeedBack> 
+           <Footer></Footer>
         </div> 
     );
 

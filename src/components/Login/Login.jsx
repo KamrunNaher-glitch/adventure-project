@@ -1,17 +1,34 @@
 import React, { useContext } from 'react';
 import { authContext } from '../AuthProvider/AuthProvider';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Login = () => {
     const {handleGoogleLogin,handleLogin,handleLogout} = useContext(authContext)
+    const location =useLocation()
+    const navigate =useNavigate()
+    console.log(location)
     const handleSubmit = (e) =>{
         e.preventDefault()
          
         const email = e.target.email.value
         const password = e.target.password.value 
        handleLogin(email,password)
+       .then(res =>{
+        navigate (location.state.from)
+       })
+       
     }
+    const googleLoginHandler = () =>{
+        handleGoogleLogin()
+        .then(res =>{
+            navigate(location.state.from)
+        })
+    }
+
+    
+    
     return (
-        <div>
+        <div className='mt-10  ml-10 space-y-3'>
         <form action="" onSubmit={handleSubmit}>
        
     <div>
@@ -32,9 +49,11 @@ const Login = () => {
         required
       />
     </div>
-            <button type='submit'>Login</button>
+            <button className='btn btn-primary ' type='submit'>Login</button>
         </form>
-        <button onClick={handleLogout}>Logout</button>
+       
+       
+        <button onClick={ googleLoginHandler }>Logout</button>
     </div>
     );
 };

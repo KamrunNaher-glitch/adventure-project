@@ -4,6 +4,8 @@ const Modal = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         console.log(e)
+      
+
     }
     return (
         <div>
@@ -44,7 +46,7 @@ const Modal = () => {
         className="input input-bordered input-primary w-full max-w-xs" name="date" />
         </div>
     </div>
-    <button className='btn btn-primary ' type='submit'>Make Appoinment</button>
+    <button className='btn btn-primary  ' type='submit'>Make Appoinment</button>
     </form>
     <h3 className="font-bold text-lg">Hello!</h3>
     <p className="py-4">Press ESC key or click the button below to close</p>
@@ -63,3 +65,4 @@ const Modal = () => {
 };
 
 export default Modal;
+

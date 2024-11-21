@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { authContext } from '../AuthProvider/AuthProvider';
 
 const Register = () => {
-    const {handleRegister} = useContext(authContext)
+    const {handleRegister,manageProfile} = useContext(authContext)
     const [error,setError] = useState("")
 
 
@@ -35,9 +35,12 @@ const Register = () => {
         console.log(name,image,password,conPassword,email)
 
         handleRegister(email,password)
+        .then(res =>{
+            manageProfile(name,image)
+        })
     }
     return (
-        <div>
+        <div className='mt-10 ml-10'>
             <form action="" onSubmit={handleSubmit}>
             <div>
           Name <input
@@ -86,7 +89,7 @@ const Register = () => {
         </div>
            
           
-                <button type='submit'>Register</button>
+                <button className='btn btn-primary' type='submit'>Register</button>
             </form>
             {error && <p className="text-red-500">{error}</p>}
         </div>
@@ -94,4 +97,7 @@ const Register = () => {
 };
 
 export default Register;
+
+
+
 
