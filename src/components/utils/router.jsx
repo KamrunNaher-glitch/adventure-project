@@ -6,6 +6,7 @@ import AlllBlogs from "../AllBlogs/AlllBlogs";
 import Profile from "../Profile/Profile";
 import Details from "../Details/Details";
 import Login from "../Login/Login";
+import Register from "../Register/Register";
 
 const router = createBrowserRouter([
     {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
             {
                 path:"/login",
                 element: <Login></Login>
+            },
+            {
+                path:"/register",
+                element: <Register></Register>
             }
         ]
     }
