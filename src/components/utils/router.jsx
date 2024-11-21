@@ -5,6 +5,7 @@ import About from "../About/About";
 import AlllBlogs from "../AllBlogs/AlllBlogs";
 import Profile from "../Profile/Profile";
 import Details from "../Details/Details";
+import Login from "../Login/Login";
 
 const router = createBrowserRouter([
     {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
                     const singleData = data.find (d => d.id == params.id)
                     return singleData
                 }
+            },
+            {
+                path:"/login",
+                element: <Login></Login>
             }
         ]
     }
