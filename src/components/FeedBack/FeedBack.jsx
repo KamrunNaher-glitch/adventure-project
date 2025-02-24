@@ -6,7 +6,7 @@ const FeedBack = ({feedBackData}) => {
     
     return (
           
-        <div className="grid grid-cols-3 mt-4 w-[80%] mx-auto max-w-[1200px] gap-6  ">
+        <div className="grid grid-cols-1 lg:grid-cols-3 mt-4 w-[80%] mx-auto max-w-[1200px] gap-6  ">
            
             {
                 feedBackData.map(feed =>

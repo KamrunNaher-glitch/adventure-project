@@ -15,7 +15,7 @@ const Home = () => {
             <Banner></Banner>
             <HeroSection></HeroSection>
             <h1 className='text-center mt-6 mb-10 text-2xl font-semibold'>ROAMING ADVENTURE'S EXPERIENCES </h1>
-            <div className='grid grid-cols-3 mt-4 w-[80%] mx-auto max-w-[1200px] gap-6  '>
+            <div className='grid grid-cols-1 lg:grid-cols-3 mt-4 w-[80%] mx-auto max-w-[1200px] gap-6  '>
                 {
                     adventuresData.slice(0,3).map(adventure =><AdventureCard adventure={adventure}></AdventureCard>)
                 }
