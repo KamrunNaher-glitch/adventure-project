@@ -5,7 +5,7 @@ Explore the beauty of nature through sustainable and exciting adventure experien
 
 Purpose
 The purpose of this project is to provide users with an eco-adventure platform that combines exciting experiences with a focus on sustainability. Users can browse adventures, register, and log in securely using Firebase Authentication.
-Live URL : https://mellow-cat-7520ce.netlify.app/
+Live URL :https://visionary-shortbread-491311.netlify.app/
 
 Key Features
 Secure Authentication:
